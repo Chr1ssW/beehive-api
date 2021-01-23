@@ -39,6 +39,11 @@ info:
     version: ${project.version}
 
 
+flyway:
+  url: jdbc:mysql://eu-cdbr-west-03.cleardb.net:3306/heroku_574ab15869a35be
+  user: b8041e339aa3d1
+  password: 06634b97
+  baseline-on-migrate: true
 ---
 
 logging:
