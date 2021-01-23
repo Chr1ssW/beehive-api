@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS `beehive` (
-  `sensorID` varchar(255) NOT NULL,
+  `sensor_id` varchar(255) NOT NULL,
   `location` varchar(255) NOT NULL,
-  PRIMARY KEY (`sensorID`),
-  UNIQUE KEY `sensorID_UNIQUE` (`sensorID`)
+  PRIMARY KEY (`sensor_id`),
+  UNIQUE KEY `sensor_id_UNIQUE` (`sensor_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

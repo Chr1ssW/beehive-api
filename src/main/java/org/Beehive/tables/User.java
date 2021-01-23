@@ -10,7 +10,7 @@ import javax.persistence.Table;
 public class User
 {
     @Id
-    private int userID;
+    private int userId;
 
     @Column
     private String name;
@@ -21,12 +21,12 @@ public class User
     @Column
     private String email;
 
-    public int getUserID() {
-        return userID;
+    public int getUserId() {
+        return userId;
     }
 
-    public void setUserID(int userID) {
-        this.userID = userID;
+    public void setUserId(int userID) {
+        this.userId = userID;
     }
 
     public String getName() {

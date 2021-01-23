@@ -18,7 +18,7 @@ public class BeehiveService
     }
 
     public Beehive getBeehive(String sensorID) {
-        return beehiveRepository.findBySensorID(sensorID);
+        return beehiveRepository.findBySensorId(sensorID);
     }
 
     public List<Beehive> getBeehives()

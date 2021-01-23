@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface UserRepository extends PagingAndSortingRepository<User, Integer>
 {
-    User findByUserID(int userID);
+    User findByUserId(int userID);
 
     @Override
     List<User> findAll();

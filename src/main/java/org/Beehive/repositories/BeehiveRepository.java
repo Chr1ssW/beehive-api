@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface BeehiveRepository extends PagingAndSortingRepository<Beehive, Integer>
 {
-    Beehive findBySensorID(String sensorID);
+    Beehive findBySensorId(String sensorId);
 
     @Override
     List<Beehive> findAll();

@@ -10,17 +10,17 @@ import javax.persistence.Table;
 public class Beehive
 {
     @Id
-    private String sensorID;
+    private String sensorId;
 
     @Column
     private String location;
 
-    public String getSensorID() {
-        return sensorID;
+    public String getSensorId() {
+        return sensorId;
     }
 
-    public void setSensorID(String sensorID) {
-        this.sensorID = sensorID;
+    public void setSensorId(String sensorID) {
+        this.sensorId = sensorID;
     }
 
     public String getLocation() {

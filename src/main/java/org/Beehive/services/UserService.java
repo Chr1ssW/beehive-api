@@ -18,9 +18,9 @@ public class UserService
         return userRepository.save(user);
     }
 
-    public User getUser(int userID)
+    public User getUser(int userId)
     {
-        return userRepository.findByUserID(userID);
+        return userRepository.findByUserId(userId);
     }
 
     public List<User> getUsers()
