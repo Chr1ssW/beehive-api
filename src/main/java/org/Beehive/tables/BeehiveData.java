@@ -15,9 +15,6 @@ public class BeehiveData
     private int dataId;
 
     @Column
-    private int userId;
-
-    @Column
     private String sensorId;
 
     @Column
@@ -41,14 +38,6 @@ public class BeehiveData
 
     public void setDataId(int dataId) {
         this.dataId = dataId;
-    }
-
-    public int getUserId() {
-        return userId;
-    }
-
-    public void setUserId(int userId) {
-        this.userId = userId;
     }
 
     public String getSensorId() {
