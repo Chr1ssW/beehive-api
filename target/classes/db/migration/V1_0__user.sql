@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS `user` (
-  `user_id` int(10) NOT NULL DEFAULT '0',
+  `user_id` int(10) NOT NULL AUTO_INCREMENT,
   `name` varchar(45) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL,
   `email` varchar(100) DEFAULT NULL,
