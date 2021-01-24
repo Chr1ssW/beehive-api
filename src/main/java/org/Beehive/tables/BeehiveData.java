@@ -12,7 +12,6 @@ import java.util.Date;
 public class BeehiveData
 {
     @Id
-    @Null
     private int dataId;
 
     @Column
@@ -34,7 +33,6 @@ public class BeehiveData
     private float weight;
 
     @Column
-    @Null
     private Date timeStamp;
 
     public int getDataId() {
