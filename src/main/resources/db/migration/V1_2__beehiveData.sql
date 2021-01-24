@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS `beehive_data` (
-  `data_id` int(5) NOT NULL AUTO_INCREMENT
+  `data_id` int(5) NOT NULL AUTO_INCREMENT,
   `sensor_id` varchar(255) DEFAULT NULL,
   `internal_temp` float(6,2) DEFAULT NULL,
   `external_temp` float(6,2) DEFAULT NULL,
